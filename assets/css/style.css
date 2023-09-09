@@ -113,51 +113,6 @@ header {
 #About-Us {
     margin: 100px 0px !important;
 }
-
-/* #Browse-Top-Category .container .row,
-#Start-We-Have-Best-Education .container .row,
-#The-Right-Courses-For-You .container .row,
-#School-News .container .row,
-#Pricing .container .row,
-footer .container .row {
-    justify-content: space-between;
-} */
-
-#Browse-Top-Category .row .card {
-    width: 17.5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: #f3f7fd;
-    border: none;
-    margin: 5px 0px;
-}
-#Start-We-Have-Best-Education .row, #The-Right-Courses-For-You .row,#Pricing .row,#School-News .row{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0px;
-}
-#School-News img{
-    width: 200px;
-}
-#Start-We-Have-Best-Education .row .card {
-    width: 22rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 15px 0px;
-}
-
-/* #Start-We-Have-Best-Education .container,
-#The-Right-Courses-For-You .container {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    flex-direction: column;
-} */
-
 #Browse-Top-Category h1,
 #Become-an-Instructor .container .row .part1 h2,
 #About-Us .container .row .part1 h2,
@@ -176,7 +131,16 @@ footer .container .row {
 #Why-Choose-Us .container .row .part2 h2 {
     color: #136ad5;
 }
-#Browse-Top-Category .row{
+#Browse-Top-Category .row .card {
+    width: 17.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f7fd;
+    border: none;
+    margin: 5px 0px;
+}#Browse-Top-Category .row{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -192,40 +156,6 @@ footer .container .row {
     background-color: #f3f7fd;
     border: none;
 }
-#Start-We-Have-Best-Education .part1,
-#The-Right-Courses-For-You .part,
-#School-News .part1,
-#Pricing .part1,
-#Testimonials .card-body {
-    width: 600px;
-}
-
-.icon-Browse-Top-Category {
-    width: 25px;
-    height: 25px;
-    background: white;
-    color: #00aeff;
-    border-radius: 20px;
-    padding: 10px;
-}
-
-/* #Browse-Top-Category .container,
-#Become-an-Instructor .container,
-#Start-We-Have-Best-Education .container,
-#The-Right-Courses-For-You .container,
-#Education-for-Tomorrows-Leaders .container,
-#About-Us .container,
-#School-News,
-#Pricing,
-#Testimonials .container,
-#Why-Choose-Us .container
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
-
 #Become-an-Instructor,
 #About-Us,
 #The-Right-Courses-For-You,
@@ -233,11 +163,6 @@ footer .container .row {
     background-color: #f8f9fa;
     position: relative;
 }
-
-#About-Us {
-    background: none;
-}
-
 #Become-an-Instructor .container .row .part1 .icon-p,
 #About-Us .container .row .part1 .icon-p {
     display: flex;
@@ -264,32 +189,51 @@ footer .container .row {
     position: relative;
     top: -50px;
 }
-
-#About-Us .container .row .part2 img {
-    width: 500px;
-    box-shadow: #d0e1f7 190px -60px 0px 2px;
-}
-
 #Become-an-Instructor .container .row,
 #About-Us .container .row {
     justify-content: space-between;
 }
+#Start-We-Have-Best-Education .row, #The-Right-Courses-For-You .row,#Pricing .row,#School-News .row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+}
+#School-News img{
+    width: 200px;
+}
+#Start-We-Have-Best-Education .row .card {
+    width: 22rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px;
+}
 
-.icon-Become-an-Instructor {
+#Start-We-Have-Best-Education .part1,
+#The-Right-Courses-For-You .part,
+#School-News .part1,
+#Pricing .part1,
+#Testimonials .card-body {
+    width: 600px;
+}
+#The-Right-Courses-For-You,
+#Start-We-Have-Best-Education,
+#School-News,
+#Pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon-Browse-Top-Category {
     width: 25px;
     height: 25px;
+    background: white;
     color: #00aeff;
-}
-
-.icon-Start-We-Have-Best-Education {
-    width: 25px;
-    height: 25px;
-    border: 2px solid #dde9f9;
-    border-radius: 50%;
+    border-radius: 20px;
     padding: 10px;
-    margin-top: 20px;
 }
-
 #The-Right-Courses-For-You .row .card {
     width: 20rem;
     padding-left: 0px;
@@ -327,6 +271,61 @@ footer .container .row {
     background-color: #dee2e6;
 }
 
+#Education-for-Tomorrows-Leaders {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/d2.jpeg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+#About-Us {
+    background: none;
+}
+
+
+#About-Us .container .row .part2 img {
+    width: 500px;
+    box-shadow: #d0e1f7 190px -60px 0px 2px;
+}
+#About-Us .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#School-News .container .row .card {
+    border: none;
+    box-shadow: rgba(128, 128, 128, 0.75) 2px 0px 8px 0px;
+}
+#Pricing .row .card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Pricing .row .card .card-body p span {
+    font-size: 2rem;
+}
+
+.icon-Become-an-Instructor {
+    width: 25px;
+    height: 25px;
+    color: #00aeff;
+}
+
+.icon-Start-We-Have-Best-Education {
+    width: 25px;
+    height: 25px;
+    border: 2px solid #dde9f9;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
 .icon1-part1 {
     align-items: baseline;
     gap: 0px 5px;
@@ -345,25 +344,12 @@ footer .container .row {
     width: 20rem;
     height: 200px;
 }
-
-#The-Right-Courses-For-You,
-#Start-We-Have-Best-Education,
-#School-News,
-#Pricing {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#The-Right-Courses-For-You .row .card .part1::after{
+    width: 14rem;
+    bottom: 60px;
 }
 
-#Education-for-Tomorrows-Leaders {
-    width: 100%;
-    height: 100vh;
-    background: url(../img/d2.jpeg);
-    background-size: cover;
-    position: relative;
-    overflow: hidden;
-}
+
 
 .card-number .box1 span {
     font-weight: bold;
@@ -383,11 +369,7 @@ footer .container .row {
     border-radius: 25px;
 }
 
-#About-Us .row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .icon-p {
     display: flex;
@@ -395,21 +377,8 @@ footer .container .row {
 
 }
 
-#School-News .container .row .card {
-    border: none;
-    box-shadow: rgba(128, 128, 128, 0.75) 2px 0px 8px 0px;
-}
 
-#Pricing .row .card .card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
-#Pricing .row .card .card-body p span {
-    font-size: 2rem;
-}
 
 .carousel-indicators button .cercil {
     height: 30px;
@@ -509,11 +478,13 @@ footer .container .row {
 
 .accordion-body img {
     width: 200px;
+    margin-bottom: 10px;
 }
 
 .accordion-body {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 footer {
@@ -521,7 +492,9 @@ footer {
     width: 100%;
     color: white;
 }
-
+footer .container .row {
+    justify-content: space-between;
+}
 footer .box-3 .the-image {
     display: flex;
     flex-wrap: wrap;
@@ -566,7 +539,9 @@ footer,
     .navbar-brand {
         display: none;
     }
-
+    #The-Right-Courses-For-You .row .card img{
+        width: 17rem;
+    }
     .bg-light {
         width: 300px;
         margin-bottom: 10px;
@@ -576,7 +551,7 @@ footer,
 
     #Become-an-Instructor .container .row .part2 img,
     #About-Us .container .row .part2 img {
-        width: 300px;
+        width: 250px;
         margin-top: 40px;
     }
 
@@ -587,43 +562,23 @@ footer,
     #Pricing .part1,
     #Testimonials .card-body,
     #Why-Choose-Us .container .row .part1 img {
-        width: 300px !important;
+        width: 250px !important;
     }
 
     .carousel-item img {
         height: 100vh !important;
     }
     #School-News .row .card{
-        width: 20rem !important;
+        width: 17rem !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
     }
     #The-Right-Courses-For-You .row .card,#Pricing .row .card{
+        width: 17rem;
         margin-left:0px !important;
         margin-right: 0px !important;
     }
-    #Pricing .row .card,#Start-We-Have-Best-Education .row .card{
-        width: 18rem !important;
+    #Pricing .row .card,#Start-We-Have-Best-Education .row .card,#Browse-Top-Category .row .card{
+        width: 17rem !important;
     }
-    /* #School-News .row .card .row{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    } */
-    /* #Browse-Top-Category .container,
-    #Become-an-Instructor .container,
-    #Start-We-Have-Best-Education .container,
-    #The-Right-Courses-For-You .container,
-    #Education-for-Tomorrows-Leaders .container,
-    #About-Us .container,
-    #School-News,
-    #Pricing,
-    #Testimonials .container,
-    #Why-Choose-Us .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-    } */
-
 }
